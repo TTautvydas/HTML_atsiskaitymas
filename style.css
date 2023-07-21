@@ -1,0 +1,394 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+header > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#b-logo {
+    padding: 3px 10px;
+    border: 2px solid red;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+header > div > div {
+    flex-basis: 80%;
+    text-align: right;
+}
+
+
+.nav-bar {
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#get-started {
+    background-color: white;
+    border: 1px solid rgba(185, 185, 185, 70%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#get-started:hover {
+    background-image: linear-gradient(to left, rgb(255, 145, 2) , red);
+    cursor: pointer;
+}
+
+.main-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.first-page-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+
+.first-page-container > div > p {
+    color: grey;
+    line-height: 25px;
+}
+
+.get-started-button {
+    background-image: linear-gradient(to right, rgb(255, 145, 2) , red);
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.get-started-button:hover {
+    background-image: linear-gradient(to left, rgb(255, 145, 2) , red);
+    cursor: pointer;
+}
+
+.office-image-container {
+    display: flex;
+    width: 1200px;
+    min-height: 450px;
+    position: relative;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+#team1 {
+    width: 500px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+
+}
+
+#team2 {
+    position: absolute;
+    width: 400px;
+    border-radius: 10px;
+    z-index: 3;
+    right: 200px;
+    bottom: 0px;
+}
+
+#teambackground {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    z-index: 1;
+    right: -150px;
+    top: -20px;
+}
+
+#dots {
+    position: absolute;
+    width: 100px;
+    z-index: 4;
+    right: 250px;
+    top: 20px;
+}
+
+.company-container {
+    background-image: linear-gradient(to bottom right, rgb(224, 224, 224) 50%, rgb(137, 207, 235));
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+
+.company-container > h3 {
+    text-align: center;
+    color: rgb(12, 12, 94);
+}
+
+.company-image-container > img {
+    width: 100px;
+    align-self: center;
+}
+
+.company-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 120px;
+}
+
+.automation-info-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+}
+
+.automation-info-header > p:first-child {
+    width: 80%;
+    font-size: 25px;
+    color: rgb(12, 12, 94);
+    font-weight: bold;
+    align-self:flex-start;
+    margin-top: 0;
+}
+
+.automation-info-header > p:last-child {
+    padding-left: 3rem;
+    font-size: 15px;
+    color: grey;
+    align-self: flex-start;
+    margin-top: 0;
+}
+
+.automation-main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-bottom: 100px;
+
+
+}
+
+.automation-picture-container {
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+#automation-pic {
+    width: 650px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#lower-dots-pic {
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    left: -30px;
+    top: 50px;
+
+}
+
+.automation-aside-container {
+    width: 60%;
+    justify-self: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.icons {
+    color: orange;
+    margin-top: 0;
+    font-size: 20px;
+    border-top: 1px solid rgba(173, 173, 173, 50%);
+    padding-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.automation-h4 {
+    color: rgb(12, 12, 94);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.automation-text {
+    color: grey;
+    margin-bottom: 35px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#automation-container-button {
+    width: 100px;
+    background-image: linear-gradient(to right, rgb(255, 145, 2) , red);
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.news-content > img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.news-container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom right, rgba(235, 235, 235, 0.945) 70%, rgb(192, 233, 255));
+}
+
+.news-container > h2 {
+    color: rgb(12, 12, 94);
+    padding-bottom: 10px;
+}
+
+.news-content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.news-content > img {
+    width: 100%;
+    justify-self: center;
+}
+
+.news-h4 {
+    color: rgb(12, 12, 94);
+}
+
+.news-information {
+    background-color: white;
+    text-align: left;
+    padding-left: 1rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.news-container > button {
+    background-color: transparent;
+    color: rgb(12, 12, 94);
+    border: 1px solid rgba(207, 207, 207,70%);
+    padding:  10px 15px;
+    border-radius:20px;
+    font-size: 10px;
+    font-weight: bolder;
+    text-shadow: 0px 1px black;
+}
+
+.outside-bridge-container {
+    background-image: url("/photos/sand_dune.jpg");
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+#inside-bridge-container {
+    width: 300px;
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.outside-bridge-container > div > p {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(175, 175, 175);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(150, 150, 150, 50%);
+}
+
+.footer-container > h3 {
+    text-align: center;
+    width: 30px;
+    padding: 3px 1px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+#first-ul {
+    grid-column: span 2;
+    grid-column-start: 2;
+}
+
+.footer-nav-header {
+    display: flex;
+}
+
+.footer-container > h3,h5 {
+    margin-bottom: 0;
+}
+
+.footer-container > ul {
+    margin-top: 5px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-container > ul > li > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.copyrights-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.copyrights-container > p {
+    font-size: 12px;
+    color: grey;
+}
+
+.copyrights-container > div > i {
+    padding-left: 10px;
+}
